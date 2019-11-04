@@ -12,4 +12,4 @@ steps:
 # Push images
 - push:
   - {{.Run.Registry}}/helloacrtaskstut2b:{{.Run.ID}}
-  - {{.Values.regDate}}/helloacrtaskstut2b{{.Run.Date}}
+  - {{.Values.regDate}}/helloacrtaskstut2b:{{.Run.Date}}
